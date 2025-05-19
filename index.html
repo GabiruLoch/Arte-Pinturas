@@ -3,100 +3,189 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Arte/Pinturas</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body class="bg-[#FFFF] max-w-7xl m-auto">
-    <header class="bg-[#FFFF] text-black text-center">
+  <body class="bg-[#FFFF] text-xl max-w-7xl m-auto">
+
+    <header class="py-8 bg-[#FFFF] text-black text-center">
       <div>
-        <h1 class="py-12 font-bold text-4xl text-center">Paintings</h1>
-        <img src="src/img/banner.png" alt="Banner de pintura">
+        <h4 class="mb-2 font-bold text-xl">Paintings</h4>
       </div>
     </header>
 
-    <section>
-      <div class="grid lg:grid-cols-3 text-center py-12 gap-8 mx-4">
-      <div class="relative after:content-[''] after:block after:w-full after:h-[1px] after:bg-gray-300 after:my-6 lg:after:content-none">
-        <img src="src/img/icons/engine.svg" alt="" class="block mx-auto">
-        <h2 class="font-bold text-3xl">Ipsum consequat</h2>
-        <p class="text-[#2d2c2c66]">Nisl amet sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
-      </div>
-      <div class="relative after:content-[''] after:block after:w-full after:h-[1px] after:bg-gray-300 after:my-6 lg:after:content-none">
-        <img src="src/img/icons/lightning.svg" alt="" class="block mx-auto">
-        <h2 class="font-bold text-3xl">Ipsum consequat</h2>
-        <p class="text-[#2d2c2c66]">Nisl amet sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
-      </div>
+    <div class="items-center">
       <div>
-        <img src="src/img/icons/star.svg" alt="" class="block mx-auto">
-        <h2 class="font-bold text-3xl">Ipsum consequat</h2>
-        <p class="text-[#2d2c2c66]">Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+        <img src="./img/banner.jpg" alt="" />
       </div>
     </div>
-    <div class="grid md:grid-cols-2 gap-4 max-w-150 m-auto text-white text-center">
-      <a href="" class="bg-red-600 py-3 rounded-md">Get Started</a>
-      <a href="" class="bg-black py-3 rounded-md">Learn More</a>
+
+    <div class="text-center mx-8 mt-8 mb-4 border-b-2 border-gray-300 pb-2">
+      <div class="flex justify-center mt-4 pt-12">
+        <img src="./img/icons/engine.svg" alt="" />
+      </div>
+
+      <h3 class="text-xl font-semibold pb-8">Ipsum consequata</h3>
+
+      <h3 class="text-l text-gray-500 pb-18">
+        Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et
+        magna tempus.
+      </h3>
     </div>
-    <div class="bg-gray-100 text-gray-800">
-      <div class="max-w-7xl mx-auto px-4 py-8">
-        <h1 class="text-3xl font-bold text-center mb-8">My Portfolio</h1>
-    
-        <!-- Portfolio Section -->
-        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          <!-- Card -->
-          <div class="bg-white rounded shadow-md overflow-hidden">
-            <img src="src/img/img-card-port1.jpg" alt="Art" class="w-full h-48 object-cover">
-            <div class="p-4">
-              <h2 class="font-bold text-lg">Ipsum feugiat et dolor</h2>
-              <p class="text-sm text-gray-600 mt-2">A short description of the artwork or project goes here.</p>
-              <button class="mt-4 bg-black text-white px-4 py-2 text-sm">Find out more</button>
-            </div>
-          </div>
-    
-          <!-- Repeat similar cards -->
-          <div class="bg-white rounded shadow-md overflow-hidden">
-            <img src="src/img/pic03.jpg.svg" alt="Art" class="w-full h-48 object-cover">
-            <div class="p-4">
-              <h2 class="font-bold text-lg">Sed etiam lorem nulla</h2>
-              <p class="text-sm text-gray-600 mt-2">A short description of the artwork or project goes here.</p>
-              <button class="mt-4 bg-black text-white px-4 py-2 text-sm">Find out more</button>
-            </div>
-          </div>
-    
-          <div class="bg-white rounded shadow-md overflow-hidden">
-            <img src="src/img/pic04.jpg.svg" alt="Art" class="w-full h-48 object-cover">
-            <div class="p-4">
-              <h2 class="font-bold text-lg">Consequat et tempus</h2>
-              <p class="text-sm text-gray-600 mt-2">A short description of the artwork or project goes here.</p>
-              <button class="mt-4 bg-black text-white px-4 py-2 text-sm">Find out more</button>
-            </div>
-          </div>
 
-          <div class="bg-white rounded shadow-md overflow-hidden">
-            <img src="src/img/pic05.jpg.svg" alt="Art" class="w-full h-48 object-cover">
-            <div class="p-4">
-              <h2 class="font-bold text-lg">Consequat et tempus</h2>
-              <p class="text-sm text-gray-600 mt-2">A short description of the artwork or project goes here.</p>
-              <button class="mt-4 bg-black text-white px-4 py-2 text-sm">Find out more</button>
-            </div>
-          </div>
+    <div class="text-center mx-8 mt-8 mb-4 border-b-2 border-gray-300 pb-2">
+      <div class="flex justify-center mt-4 pt-12">
+        <img src="./img/icons/lightning.svg" alt="" />
+      </div>
 
-          <div class="bg-white rounded shadow-md overflow-hidden">
-            <img src="src/img/pic06.jpg.svg" alt="Art" class="w-full h-48 object-cover">
-            <div class="p-4">
-              <h2 class="font-bold text-lg">Consequat et tempus</h2>
-              <p class="text-sm text-gray-600 mt-2">A short description of the artwork or project goes here.</p>
-              <button class="mt-4 bg-black text-white px-4 py-2 text-sm">Find out more</button>
-            </div>
-          </div>
+      <h3 class="text-xl font-semibold pb-8">Magna etium dolor</h3>
 
-          <div class="bg-white rounded shadow-md overflow-hidden">
-            <img src="src/img/pic07.jpg.svg" alt="Art" class="w-full h-48 object-cover">
+      <h3 class="text-l text-gray-500 pb-18">
+        Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et
+        magna tempus.
+      </h3>
+    </div>
+
+    <div class="text-center mx-8 mt-8 mb-4 pb-4">
+      <div class="flex justify-center mt-4 pt-12">
+        <img src="./img/icons/star.svg" alt="" />
+      </div>
+
+      <h3 class="text-xl font-semibold pb-8">Tempus adipiscing</h3>
+
+      <h3 class="text-l text-gray-500 pb-18">
+        Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et
+        magna tempus.
+      </h3>
+
+      <div class="grid items-center gap-4 mt-6 md:grid-cols-2 flex-none">
+        <button class="bg-rose-700 text-white font-semibold py-2 px-8 rounded-md">
+          Get Started
+        </button>
+        <button class="bg-gray-900 text-white font-semibold py-2 px-8 rounded-md">
+          Learn More
+        </button>
+      </div>
+    </div>
+   
+    <div class="bg-gray-100 pb-12 p-8">
+      <div class="py-1">
+        <div class="flex items-center mb-3">
+          <div class="flex-grow border-t border-gray-300"></div>
+          <span class="mx-4 text-sm">My Portifolio</span>
+          <div class="flex-grow border-t border-gray-300"></div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          <div class="bg-white rounded shadow-md overflow-hidden border my-4">
+            <img src="./img/img-card-port1.jpg" alt="Imagem 1" class="w-full h-auto" />
             <div class="p-4">
-              <h2 class="font-bold text-lg">Consequat et tempus</h2>
-              <p class="text-sm text-gray-600 mt-2">A short description of the artwork or project goes here.</p>
-              <button class="mt-4 bg-black text-white px-4 py-2 text-sm">Find out more</button>
+              <h3 class="font-bold text-sm mb-2">Ipsum feugiat et dolor</h3>
+              <p class="text-gray-500 text-sm mb-4">Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phaslleus tempus dolore ipsum lorem dolore.</p>
+              <a href="">
+                <button class="w-full bg-gray-800 text-white text-sm font-bold py-2 rounded">Find out more</button>
+              </a>
             </div>
           </div>
-    </section>
+        
+          <div class="bg-white rounded-lg shadow-md overflow-hidden border my-4">
+            <img src="./img/img-card-port2.jpg" alt="Imagem 2" class="w-full h-auto" />
+            <div class="p-4">
+              <h3 class="font-bold text-sm mb-2">Sed etiam lorem nulla</h3>
+              <p class="text-gray-500 text-sm mb-4">Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phaslleus tempus dolore ipsum lorem dolore.</p>            
+              <a href="">
+                <button class="w-full bg-gray-800 text-white text-sm font-bold py-2 rounded">Find out more</button>
+              </a>
+            </div>
+          </div>
+          
+          <div class="bg-white rounded-lg shadow-md overflow-hidden border my-4">
+            <img src="./img/img-card-port3.jpg" alt="Imagem 2" class="w-full h-auto" />
+            <div class="p-4">
+              <h3 class="font-bold text-sm mb-2">Sed etiam lorem nulla</h3>
+              <p class="text-gray-500 text-sm mb-4">Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phaslleus tempus dolore ipsum lorem dolore.</p>            
+              <a href="">
+                <button class="w-full bg-gray-800 text-white text-sm font-bold py-2 rounded">Find out more</button>
+              </a>
+            </div>
+          </div>
+          
+          <div class="bg-white rounded-lg shadow-md overflow-hidden border my-4">
+            <img src="./img/img-card-port4.jpg" alt="Imagem 2" class="w-full h-auto" />
+            <div class="p-4">
+              <h3 class="font-bold text-sm mb-2">Sed etiam lorem nulla</h3>
+              <p class="text-gray-500 text-sm mb-4">Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phaslleus tempus dolore ipsum lorem dolore.</p>            
+              <a href="">
+                <button class="w-full bg-gray-800 text-white text-sm font-bold py-2 rounded">Find out more</button>
+              </a>
+              </div>
+          </div> 
+
+          <div class="bg-white rounded-lg shadow-md overflow-hidden border  my-4">
+            <img src="./img/img-card-port5.jpg" alt="Imagem 2" class="w-full h-auto" />
+            <div class="p-4">
+              <h3 class="font-bold text-sm mb-2">Sed etiam lorem nulla</h3>
+              <p class="text-gray-500 text-sm mb-4">Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phaslleus tempus dolore ipsum lorem dolore.</p>            
+              <a href="">
+                <button class="w-full bg-gray-800 text-white text-sm font-bold py-2 rounded">Find out more</button>
+              </a>
+            </div>
+          </div> 
+
+          <div class="bg-white rounded-lg shadow-md overflow-hidden border my-4">
+            <img src="./img/img-card-port6.jpg" alt="Imagem 2" class="w-full h-auto"/>
+            <div class="p-4">
+              <h3 class="font-bold text-sm mb-2">Sed etiam lorem nulla</h3>
+              <p class="text-gray-500 text-sm mb-4">Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phaslleus tempus dolore ipsum lorem dolore.</p>            
+              <a href="">
+                <button class="w-full bg-gray-800 text-white text-sm font-bold py-2 rounded">Find out more</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+        <div class="flex items-center mt-8 mb-3 mx-8">
+          <div class="flex-grow border-t border-gray-300"></div>
+          <span class="mx-4 text-sm">The Blog</span>
+          <div class="flex-grow border-t border-gray-300"></div>
+        </div>
+
+        <div class = "mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl">
+          <div class="bg-white rounded-lg shadow-md overflow-hidden border my-4">
+
+            <img src="img/img-card-blog1.jpg" alt="Imagem 2" class="w-full h-auto" />
+              <div class="p-4">
+                  <h3 class="font-bold text-sm mb-2">Magna Tempus consequat</h3>
+                  <p class="text-gray-500 text-sm mb-4">Posted 45 minutes ago</p>
+                  <p class="text-gray-500 text-sm mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque cupiditate, totam distinctio, ea rerum quas inventore tempore voluptatibus quia corporis ipsum fugit sequi maiores suscipit? Dolorem temporibus eum dolorum! Velit?</p>
+                            
+                  <div class ="text-white text-sm font-bold mt-6 grid lg:grid-cols-2 gap-3" >
+                    <a href=""><div><button class="w-full  bg-red-600 text-sm font-bold py-2 rounded">Continue Reading</button></div></a>
+                    <a href=""><div><button class="w-full bg-gray-800 text-sm font-bold py-2 rounded">33 Comments</button></div></a>
+                  </div>
+              </div> 
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md overflow-hidden border my-4">
+              <img src="img/img-card-blog2.jpg" alt="Imagem 2" class="w-full h-auto" />
+                <div class="p-4">
+                  <h3 class="font-bold text-sm mb-2">Sed etiam lorem nulla</h3>
+                  <p class="text-gray-500 text-sm mb-4">Posted 45 minutes ago</p>
+                  <p class="text-gray-500 text-sm mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque cupiditate, totam distinctio, ea rerum quas inventore tempore voluptatibus quia corporis ipsum fugit sequi maiores suscipit? Dolorem temporibus eum dolorum! Velit?</p>
+                
+                  <div class ="text-white text-sm font-bold mt-6 grid lg:grid-cols-2 gap-3" >
+                    <a href=""><div><button class="w-full  bg-red-600 text-sm font-bold py-2 rounded">Continue Reading</button></div></a>
+                    <a href=""><div><button class="w-full bg-gray-800 text-sm font-bold py-2 rounded">33 Comments</button></div></a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <footer class="bg-gray-800 p-1.5">
+      <div class="flex justify-center space-x-8 mt-14 mb-10 mx-8">
+        <p class="text-white font-medium">© Untitled. All rights reserved.</p>
+        <p class="text-white font-medium">Design: ALUNOS DE WEB</p>
+      </div>
+    </footer>
   </body>
 </html>
